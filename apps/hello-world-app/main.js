@@ -1,8 +1,19 @@
+/**
+	{
+		"createdOn": "18 Feb 2018",
+		"codedBy": "Rishikesh Agrawani"
+		"aim": "To create a simple hello world app desktop app using electron"
+	}
+*/
+
 const {app, BrowserWindow} = require("electron")
 const path = require("path")
 const url = require("url")
 
+
 function createWindow() {
+	let win;
+
 	win = new BrowserWindow({height:500, width:500})
 
 	win.loadURL(url.format({

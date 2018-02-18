@@ -86,6 +86,14 @@ index.html
 main.js
 
 ```javascript
+/**
+	{
+		"createdOn": "18 Feb 2018",
+		"codedBy": "Rishikesh Agrawani"
+		"aim": "To create a simple hello world app desktop app using electron"
+	}
+*/
+
 const {app, BrowserWindow} = require("electron")
 const path = require("path")
 const url = require("url")
@@ -142,3 +150,12 @@ http:///:D:\projects\Others\electron-pro\apps\hello-world-app\index.html
 file:D:\projects\Others\electron-pro\apps\hello-world-app\index.html
 
 ```
+
+### Bower
+
+Used to manage the frontend dependencies like Backbone, React, Angular, Bootstrap.
+
+```
+npm install -g bower
+```
+
